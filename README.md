@@ -4,7 +4,7 @@ This project is intentionally simple so participants can focus on pipeline impro
 
 ## Before the workshop (required prerequisite, ~15 minutes)
 
-You will work in **your own copy** of this repository — you need admin rights on it for the
+You will work in **your own copy ** of this repository — you need admin rights on it for the
 guardrails lab. Do not fork (forks have Actions disabled by default and their pull requests
 target this repo instead of yours). Instead:
 
@@ -26,6 +26,7 @@ git push -u origin main
    (Copilot Chat -> Agent).
 
 ## Baseline Workflow
+
 - File: `.github/workflows/ci.yml`
 - Characteristics:
   - Real npm dependencies (~90 MB installed) so install cost is measurable
@@ -43,11 +44,13 @@ npm test
 ```
 
 ## Workshop Task
+
 Open this repo in VS Code with GitHub Copilot in **agent mode** and use the workshop prompt
 cards. The discipline: the agent designs first (no file edits), your team approves the design,
 then the agent implements it on a branch and you review its diff before it commits.
 
 Optimisation categories (pick exactly one):
+
 1. Add dependency caching via `actions/setup-node` cache option.
 2. Split tests across matrix shards.
 3. Reuse build artifacts.
