@@ -45,6 +45,6 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      # Tests run in a single job with no sharding, so duration improvement is possible.
+      # Tests run in a single job with no sharding, so duration improvement is possible
       - name: Run tests
         run: npm test
