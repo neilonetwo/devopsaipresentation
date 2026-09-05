@@ -2,7 +2,7 @@
 
 This project is intentionally simple so participants can focus on pipeline improvements.
 
-## Before the workshop (required prerequisite, ~15 minutes)
+## B efore the workshop (required prerequisite, ~15 minutes)
 
 You will work in **your own copy ** of this repository — you need admin rights on it for the
 guardrails lab. Do not fork (forks have Actions disabled by default and their pull requests
